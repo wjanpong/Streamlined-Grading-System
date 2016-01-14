@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AstAdmin</class>
+ <widget class="QDialog" name="AstAdmin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_status">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>status</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_filler">
+   <property name="geometry">
+    <rect>
+     <x>153</x>
+     <y>10</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Assistant Admin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_createcourse">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>72</y>
+     <width>441</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CREATE COURSE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ViewCourse">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>441</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VIEW COURSE </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_modifycourse">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>441</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MODIFY COURSE</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>77</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_logout">
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_ChangePass">
+      <property name="text">
+       <string>Change Pass</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
